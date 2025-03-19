@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "profile-andoniaina",
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

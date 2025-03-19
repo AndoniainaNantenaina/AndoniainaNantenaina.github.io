@@ -1,1 +1,22 @@
 @import 'tailwindcss';
+
+@font-face {
+    font-family: 'Cookie';
+    src: url('./assets/fonts/Cookie/Cookie-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Funnel Display';
+    src: url('./assets/fonts/Funnel_Display/FunnelDisplay-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf');
+}
+
+@theme {
+    --font-cookie: 'Cookie', sans-serif;
+    --font-funnel-display: 'Funnel Display', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+}
