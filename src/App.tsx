@@ -5,6 +5,7 @@ import "./App.css";
 import CPlusPlusLogo from "./assets/c.svg";
 import FacebookLogo from "./assets/icons8-facebook-nouveau.svg";
 import WhatsAppLogo from "./assets/icons8-whatsapp.svg";
+import MyLogo from "./assets/logo.svg";
 import FirebaseLogo from "./assets/Logomark_Full Color.svg";
 import PythonLogo from "./assets/python-5.svg";
 import ReactLogo from "./assets/react-2.svg";
@@ -18,6 +19,96 @@ import AnimatedText from "./components/animatedText";
 function App() {
   return (
     <>
+      <header className="bg-black fixed w-full">
+        <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+          <div className="flex h-16 items-center justify-between">
+            <div className="md:flex md:items-center md:gap-12">
+              <a className="block text-white" href="#">
+                <span className="sr-only">Home</span>
+                <img className="w-44 h-auto" src={MyLogo} />
+              </a>
+            </div>
+
+            <div className="hidden md:block">
+              <nav aria-label="Global">
+                <ul className="flex items-center gap-6 text-sm">
+                  <li>
+                    <a
+                      className="text-gray-500 transition hover:text-gray-500/75"
+                      href="#"
+                    >
+                      {" "}
+                      About{" "}
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      className="text-gray-500 transition hover:text-gray-500/75"
+                      href="#"
+                    >
+                      {" "}
+                      Careers{" "}
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      className="text-gray-500 transition hover:text-gray-500/75"
+                      href="#"
+                    >
+                      {" "}
+                      History{" "}
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      className="text-gray-500 transition hover:text-gray-500/75"
+                      href="#"
+                    >
+                      {" "}
+                      Services{" "}
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      className="text-gray-500 transition hover:text-gray-500/75"
+                      href="#"
+                    >
+                      {" "}
+                      Projects{" "}
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      className="text-gray-500 transition hover:text-gray-500/75"
+                      href="#"
+                    >
+                      {" "}
+                      Blog{" "}
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+
+            <div className="flex items-center gap-4">
+              <div className="sm:flex sm:gap-4">
+                <a
+                  className="rounded-md bg-indigo-700 px-5 py-2.5 text-sm font-medium text-white shadow-sm"
+                  href="#"
+                >
+                  My CV
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
       <div
         id="home-view"
         className="flex flex-col items-center justify-center h-screen bg-black text-white"
@@ -218,7 +309,7 @@ function App() {
         </div>
       </div>
 
-      <div className="h-[50svh] flex flex-col gap-2 justify-center items-center bg-slate-800 text-white p-2 font-funnel-display">
+      <div className="h-[50svh] flex flex-col gap-2 justify-center items-center bg-indigo-700 text-white p-2 font-funnel-display">
         <AnimatedText
           className="text-3xl font-bold text-center"
           text="Let's Work Together"
