@@ -23,7 +23,7 @@ function App() {
         <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             <div className="md:flex md:items-center md:gap-12">
-              <a className="block text-white" href="#">
+              <a className="block text-white" href="#home">
                 <span className="sr-only">Home</span>
                 <img className="w-44 h-auto" src={MyLogo} />
               </a>
@@ -35,60 +35,50 @@ function App() {
                   <li>
                     <a
                       className="text-gray-500 transition hover:text-gray-500/75"
-                      href="#"
+                      href="#whoami"
                     >
                       {" "}
-                      About{" "}
+                      Who Am I?{" "}
                     </a>
                   </li>
 
                   <li>
                     <a
                       className="text-gray-500 transition hover:text-gray-500/75"
-                      href="#"
+                      href="#experiences"
                     >
                       {" "}
-                      Careers{" "}
+                      Experiences{" "}
                     </a>
                   </li>
 
                   <li>
                     <a
                       className="text-gray-500 transition hover:text-gray-500/75"
-                      href="#"
+                      href="#skills"
                     >
                       {" "}
-                      History{" "}
+                      What Can I Do?{" "}
                     </a>
                   </li>
 
                   <li>
                     <a
                       className="text-gray-500 transition hover:text-gray-500/75"
-                      href="#"
+                      href="#used-tools"
                     >
                       {" "}
-                      Services{" "}
+                      Main Technical Tools{" "}
                     </a>
                   </li>
 
                   <li>
                     <a
                       className="text-gray-500 transition hover:text-gray-500/75"
-                      href="#"
+                      href="#contacts"
                     >
                       {" "}
-                      Projects{" "}
-                    </a>
-                  </li>
-
-                  <li>
-                    <a
-                      className="text-gray-500 transition hover:text-gray-500/75"
-                      href="#"
-                    >
-                      {" "}
-                      Blog{" "}
+                      Contacts{" "}
                     </a>
                   </li>
                 </ul>
@@ -110,7 +100,7 @@ function App() {
       </header>
 
       <div
-        id="home-view"
+        id="home"
         className="flex flex-col items-center justify-center h-screen bg-black text-white"
       >
         <div id="name" className="flex flex-col">
